@@ -10,7 +10,6 @@ using namespace std::this_thread;
 
 int main()
 {
-	sleep_for(seconds(20));
 	system("color E");
 	cout << " Di[S]ociety"; sleep_for(seconds(2));
 	cout << "\n\n Proximamente";
