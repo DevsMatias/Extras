@@ -9,16 +9,20 @@ using namespace std::chrono;
 using namespace std::this_thread;
 
 int main()
-{
-	system("color E");
-	cout << " Di[S]ociety"; sleep_for(seconds(2));
+{	system("color 3");
+	sleep_for(seconds(5));
 	cout << "\n\n Proximamente";
 	for (int i = 0; i < 4; i++) {
 		sleep_for(milliseconds(800));
 		cout << " .";
-	}
-	sleep_for(seconds(1));
+	};
+	cout << " Di[S]ociety"; sleep_for(seconds(1)); cout << "Beta 1.0";
+	sleep_for(seconds(2))
+		cout << "Leyendas del Yggdrasil";
+	
+	sleep_for(seconds(4));
 	system("cls");
+
 	system("color 4");
 	sleep_for(seconds(2));
 	cout << " Estas listo para jugar?";
@@ -34,7 +38,6 @@ int main()
 	sleep_for(milliseconds(750));
 	system("cls");
 	sleep_for(seconds(3));
-	system("curl parrot.live");
 };
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
